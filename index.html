@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bannu</title>
+    <style>
+        body{
+            margin: 0%;
+            background-image: url("https://www.freecodecamp.org/news/content/images/size/w2000/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg") ;
+            min-height: 100vh;
+            background-size: cover;
+        }
+        .parent-container{
+            margin: auto;
+            border: 2px solid white;
+            width: 35%;
+            margin-top: 5%;
+            padding: 1%;
+            border-radius: 10px;
+            
+        }
+        .parent-container h2{
+            font-size: 2rem;
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+        }
+        .form-field{
+            margin-bottom: 10px;
+        }
+        .form-field input{
+            padding: 10px;
+            width: 90%;
+            font-size: 1.3rem;
+            margin: 10px;
+            margin-bottom: 20px;
+        }
+        .form-dropdown select{
+            padding: 10px;
+            width: 95%;
+            font-size: 1.3rem;
+            margin: 10px;
+           
+        }
+        .parent-container button{
+            background-color: green;
+            margin: 10px;
+            margin-top: 20px;
+            padding: 10px;
+            color: #ffffff;
+            width: 50%;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    
+    <form class="parent-container" action="http://goole.com">
+        <h2>Register</h2>
+        <div class="form-field">
+            <input type="text" placeholder="Enter name" name="firstname"><br />
+            <input type="email" placeholder="Enter email" name="email"><br />
+            <input type="password" placeholder="Enter password" name="password" "><br/>
+        </div>
+        <div class="form-dropdown">
+            <select name=" city">
+            <option value="">select your city</option>
+            <option value="vijayawada">vijayawada</option>
+            <option value="Hydrabad">Hydrabad</option>
+            <option value="vizag">vizag</option>
+            </select>
+        </div>
+        <button>submit</button>
+    </form>
+
+</body>
+
+</html>
